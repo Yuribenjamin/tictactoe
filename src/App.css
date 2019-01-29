@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    font-family: 'Lobster', cursive;
+    margin: 20px;
+    background: url('./qbkls.png')
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    color: #1e90ff;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 70px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 17.5em;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
